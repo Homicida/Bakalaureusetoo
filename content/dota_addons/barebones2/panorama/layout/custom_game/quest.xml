@@ -1,0 +1,44 @@
+<root>
+
+	<styles>
+		<include src="file://{resources}/styles/quest.css" />
+	</styles>
+
+	<scripts>
+		<include src="file://{resources}/scripts/quest.js" />
+	</scripts>
+
+	<snippets>
+		<snippet name="Quest">
+			<Panel class="Quest">
+				<Panel id="LeftSide">
+					<Panel id="QuestImage">
+						<Image src="file://{resources}/images/quest.png" />
+					</Panel>
+				</Panel>
+				<Panel id="RightSide">
+					<Panel id="TopSide">
+						<Label id="QuestTitle" text="Sample Title" />
+					</Panel>
+					<Panel id="BottomSide">
+						<Panel id="Background" />
+						<Label id="QuestDesc" text="Sample text"/>
+
+						<Label id="QuestProg" text="0/1"/>
+					</Panel>
+				</Panel>
+			</Panel>
+		</snippet>
+	</snippets>
+
+	<Panel class="QuestRoot">
+		<Panel>
+			<DOTAAvatarImage class="Avatar" steamid="local"/>
+			<DOTAUserName class="User" steamid="local"/>
+		</Panel>
+		<Label id="QuestName" text="Ülesanded" onmouseout ="DOTAHideTextTooltip()" onmouseover = "DOTAShowTextTooltip(Ülesande sooritamisel kaob ülesanne listist.)" />
+		<Panel id="Quests">
+			
+		</Panel>
+	</Panel>
+</root>

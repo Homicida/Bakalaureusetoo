@@ -1,0 +1,82 @@
+.QuestRoot{
+	width: 300px;
+	height: 400px;
+
+	horizontal-align: left;
+	vertical-align: center;
+}
+
+#QuestName{
+	horizontal-align: center;
+	font-size: 24px;
+	color: white;
+	text-decoration: underline; 
+	margin-top: 80px;
+}
+
+#Quests{
+	flow-children: down;
+	margin-top: 120px;
+}
+
+.Quest{
+	flow-children: right;
+}
+
+#LeftSide{
+	width: 50px;
+	height: 50px;
+	margin: 5px 5px 5px 5px;
+
+}
+
+#RightSide{
+	flow-children: down;
+}
+
+#BottomSide{
+	width: 200px;
+	margin-top: 10px;
+	border: 2px solid black;
+}
+
+#QuestTitle{
+	color: black;
+	font-size: 16px;
+	margin-top: 5px;
+	margin-left: 2px;
+}
+
+#QuestProg{
+	color: black;
+	font-size: 14px;
+	horizontal-align: right;
+}
+
+#QuestDesc{
+	color: black;
+	font-size: 14px;
+}
+
+#Background{
+	width: 100%;
+	height: 100%;
+	background-color: red;
+}
+
+.Avatar{
+	width: 70px;
+	height: 70px;
+	margin-left: 10px;
+}
+.User{
+	margin-left: 85px;
+	font-size: 28px;
+	width: 300px;
+	height: 400px;
+}
+.Pilt{
+	margin-top: 130px;
+	height: 40px;
+	width: 40px;
+}

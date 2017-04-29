@@ -1,0 +1,30 @@
+"DOTAAbilities"
+{
+	"item_modifier"
+	{
+		"ID"					"3001"
+		"AbilityBehavior"		"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"				"item_datadriven"
+		
+		"precache"
+		{
+			"particle"		"particles/units/heroes/hero_omniknight/omniknight_repel_buff.vpcf"
+		}
+
+		"Modifiers"
+		{
+			"invulnerable"
+			{
+				"TextureName"	"omniknight_repel"
+				
+				"EffectName"		"particles/units/heroes/hero_omniknight/omniknight_repel_buff.vpcf"
+				"EffectAttachType"	"follow_origin"
+				
+				"States"
+				{
+					"MODIFIER_STATE_INVULNERABLE"		"MODIFIER_STATE_VALUE_ENABLED"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,143 @@
+
+// Dota Abilities Override File
+"DOTAAbilities"
+{
+  "Version"   "1"
+	
+	"ability_tempo_1"
+	{
+		"BaseClass"					"ability_datadriven"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityTextureName"    	"red"
+		"MaxLevel"					"1"
+		
+		"AbilityCooldown"			"0"
+		"AbilityCastPoint"			"0"
+		"AbilityCastAnimation" 		"ACT_DOTA_CAST_ABILITY_1"
+		"AbilityManaCost"			"0"
+		"AnimationPlaybackRate" 	"2"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"scripts/vscripts/gamemode.lua"
+				"Function"		"Game"
+			}
+		}
+	}
+	
+	"ability_tempo_2"
+	{
+		"BaseClass"					"ability_datadriven"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityTextureName"    	"green"
+		"MaxLevel"					"1"
+		
+		"AbilityCooldown"			"0"
+		"AbilityCastPoint"			"0"
+		"AbilityCastAnimation" 		"ACT_DOTA_CAST_ABILITY_2"
+		"AbilityManaCost"			"0"
+		"AnimationPlaybackRate" 	"2"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"scripts/vscripts/gamemode.lua"
+				"Function"		"Game"
+			}
+		}
+	}
+	
+	"ability_tempo_3"
+	{
+		"BaseClass"					"ability_datadriven"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityTextureName"    	"blue"
+		"MaxLevel"					"1"
+		
+		"AbilityCooldown"			"0"
+		"AbilityCastPoint"			"0"
+		"AbilityCastAnimation" 		"ACT_DOTA_CAST_ABILITY_3"
+		"AbilityManaCost"			"0"
+		"AnimationPlaybackRate" 	"2"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"scripts/vscripts/gamemode.lua"
+				"Function"		"Game"
+			}
+		}
+	}
+	
+	"ability_tempo_4"
+	{
+		"BaseClass"					"ability_datadriven"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityTextureName"    	"yellow"
+		"MaxLevel"					"1"
+		
+		"AbilityCooldown"			"0"
+		"AbilityCastPoint"			"0"
+		"AbilityCastAnimation" 		"ACT_DOTA_CAST_ABILITY_4"
+		"AbilityManaCost"			"0"
+		"AnimationPlaybackRate" 	"2"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"scripts/vscripts/gamemode.lua"
+				"Function"		"Game"
+			}
+		}
+	}
+	"ability_tempo_5"
+	{
+		"BaseClass"					"ability_datadriven"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityTextureName"    	"white"
+		"MaxLevel"					"1"
+		
+		"AbilityCooldown"			"0"
+		"AbilityCastPoint"			"0"
+		"AbilityCastAnimation" 		"ACT_DOTA_CAST_ABILITY_5"
+		"AbilityManaCost"			"0"
+		"AnimationPlaybackRate" 	"2"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"scripts/vscripts/gamemode.lua"
+				"Function"		"Game"
+			}
+		}
+	}
+	"ability_tempo_6"
+	{
+		"BaseClass"					"ability_datadriven"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityTextureName"    	"black"
+		"MaxLevel"					"1"
+		
+		"AbilityCooldown"			"0"
+		"AbilityCastPoint"			"0"
+		"AbilityCastAnimation" 		"ACT_DOTA_CAST_ABILITY_6"
+		"AbilityManaCost"			"0"
+		"AnimationPlaybackRate" 	"2"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"scripts/vscripts/gamemode.lua"
+				"Function"		"Game"
+			}
+		}
+	}
+}
+

@@ -1,0 +1,17 @@
+<root>
+    <styles>
+		<include src="s2r://panorama/styles/custom_game/scoreboard.css" />
+    </styles>
+	<scripts>
+		<include src="s2r://panorama/scripts/custom_game/scoreboard.js" />
+	</scripts>
+	<Panel class="ScoreboardRoot">
+		<Label id="ScoreboardName" text="Scoreboard"/>
+		<Panel id="Scoreboard">
+			<Panel id="Background">
+				<Label id="Score" text="Score: " />
+				<Label id="ScoreDescription" text="0" />
+			</Panel>
+		</Panel>
+	</Panel>
+</root>
